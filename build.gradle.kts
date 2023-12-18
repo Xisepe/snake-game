@@ -27,6 +27,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
     implementation("com.google.protobuf:protobuf-java:3.25.1")
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    testImplementation("ch.qos.logback:logback-classic:1.4.11")
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation("org.slf4j:slf4j-api:2.0.7")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
     runtimeOnly("com.h2database:h2")
